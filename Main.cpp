@@ -438,7 +438,7 @@ int main()
                     string command = "espeak \"" + phrase + "\"";
                     const char *charCommand = command.c_str();
                     system(charCommand);
-                    CreateProcess(TEXT("C:\\Windows\\System32\\mspaint.exe"), NULL, NULL, NULL, FALSE, NULL, NULL, NULL, &startInfo, &processInfo);
+                    CreateProcess(TEXT("         "), NULL, NULL, NULL, FALSE, NULL, NULL, NULL, &startInfo, &processInfo);
                 }
 
                 else if(command=="play music")
