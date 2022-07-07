@@ -31,8 +31,8 @@ void greetings(){
     }
 
     else if (time-> tm_hour > 16 && time->tm_hour < 24){
-        cout<< "Good Evening Master Aditya"<<endl;
-        string phrase = "Good Evening Master Aditya";
+        cout<< "Good Evening Mr. SuryanshuSingh"<<endl;
+        string phrase = "Good Evening Mr SuryanshuSingh";
         string command = "espeak \"" + phrase + "\"";
         const char *charCommand = command.c_str();
         system(charCommand);
@@ -57,9 +57,9 @@ int main()
     do
     {
         cout<<"******************************************************"<<endl;
-        cout<<"| ENTER THE PASSWORD TO CONFIRM YOU ARE MASTER ADITYA|"<<endl;
+        cout<<"| ENTER THE PASSWORD TO CONFIRM YOU ARE MASTER SURYANSHU|"<<endl;
         cout<<"******************************************************"<<endl<<endl;
-        string phrase = "ENTER THE PASSWORD TO CONFIRM YOU ARE MASTER ADITYA";
+        string phrase = "ENTER THE PASSWORD TO CONFIRM YOU ARE MASTER SURYANSHU";
         string command = "espeak \"" + phrase + "\"";
         const char *charCommand = command.c_str();
         system(charCommand);
@@ -75,9 +75,9 @@ int main()
             greetings();
             do{
                 cout<<"\n<**********************************************************************************************>\n\n";
-                cout<<endl<<"How can i help you Master Aditya...."<<endl<<endl;
+                cout<<endl<<"How can i help you Master Suryanshu...."<<endl<<endl;
 
-                string phrase = "How can i help you Master Aditya";
+                string phrase = "How can i help you Master Suryanshu";
                 string command = "espeak \"" + phrase + "\"";
                 const char *charCommand = command.c_str();
                 system(charCommand);
@@ -89,8 +89,8 @@ int main()
 
                 if(command=="hello" || command=="hi")
                 {
-                    cout<<"Hello Master Aditya....."<<endl;
-                    string phrase = "Hello Master Aditya";
+                    cout<<"Hello Master Suryanshu....."<<endl;
+                    string phrase = "Hello Master Suryanshu";
                     string command = "espeak \"" + phrase + "\"";
                     const char *charCommand = command.c_str();
                     system(charCommand);
@@ -105,8 +105,8 @@ int main()
 
                 else if(command=="who are you" || command=="who is speaking")
                 {
-                    cout<<"I'm a personal assistant created by Master Aditya !!!"<<endl;
-                    string phrase = "I'm a personal assistant created by Master Aditya !!!";
+                    cout<<"I'm a personal assistant created by Master Suryanshu !!!"<<endl;
+                    string phrase = "I'm a personal assistant created by Master Suryanshu !!!";
                     string command = "espeak \"" + phrase + "\"";
                     const char *charCommand = command.c_str();
                     system(charCommand);
@@ -293,24 +293,24 @@ void greetings(){
     tm *time = localtime(&now);
 
     if (time-> tm_hour < 12){
-        cout<< "Good Morning Master Aditya"<<endl;
-        string phrase = "Good Morning Master Aditya";
+        cout<< "Good Morning "<<endl;
+        string phrase = "Good Morning";
         string command = "espeak \"" + phrase + "\"";
         const char *charCommand = command.c_str();
         system(charCommand);
     }
 
     else if (time-> tm_hour >= 12 && time->tm_hour <= 16){
-        cout<< "Good Afternoon Master Aditya"<<endl;
-        string phrase = "Good Afternoon Master Aditya";
+        cout<< "Good Afternoon"<<endl;
+        string phrase = "Good Afternoon";
         string command = "espeak \"" + phrase + "\"";
         const char *charCommand = command.c_str();
         system(charCommand);
     }
 
     else if (time-> tm_hour > 16 && time->tm_hour < 24){
-        cout<< "Good Evening Master Aditya"<<endl;
-        string phrase = "Good Evening Master Aditya";
+        cout<< "Good Evening "<<endl;
+        string phrase = "Good Evening";
         string command = "espeak \"" + phrase + "\"";
         const char *charCommand = command.c_str();
         system(charCommand);
@@ -335,9 +335,9 @@ int main()
     do
     {
         cout<<"******************************************************"<<endl;
-        cout<<"| ENTER THE PASSWORD TO CONFIRM YOU ARE MASTER ADITYA|"<<endl;
+        cout<<"| ENTER THE PASSWORD TO CONFIRM |"<<endl;
         cout<<"******************************************************"<<endl<<endl;
-        string phrase = "ENTER THE PASSWORD TO CONFIRM YOU ARE MASTER ADITYA";
+        string phrase = "ENTER THE PASSWORD TO CONFIRM";
         string command = "espeak \"" + phrase + "\"";
         const char *charCommand = command.c_str();
         system(charCommand);
@@ -353,9 +353,9 @@ int main()
             greetings();
             do{
                 cout<<"\n<**********************************************************************************************>\n\n";
-                cout<<endl<<"How can i help you Master Aditya...."<<endl<<endl;
+                cout<<endl<<"How can i help you!...."<<endl<<endl;
 
-                string phrase = "How can i help you Master Aditya";
+                string phrase = "How can i help you ";
                 string command = "espeak \"" + phrase + "\"";
                 const char *charCommand = command.c_str();
                 system(charCommand);
@@ -367,8 +367,8 @@ int main()
 
                 if(command=="hello" || command=="hi")
                 {
-                    cout<<"Hello Master Aditya....."<<endl;
-                    string phrase = "Hello Master Aditya";
+                    cout<<"Hello....."<<endl;
+                    string phrase = "Hello";
                     string command = "espeak \"" + phrase + "\"";
                     const char *charCommand = command.c_str();
                     system(charCommand);
@@ -383,8 +383,8 @@ int main()
 
                 else if(command=="who are you" || command=="who is speaking")
                 {
-                    cout<<"I'm a personal assistant created by Master Aditya !!!"<<endl;
-                    string phrase = "I'm a personal assistant created by Master Aditya !!!";
+                    cout<<"I'm a personal assistant  !!!"<<endl;
+                    string phrase = "I'm a personal assistant !!!";
                     string command = "espeak \"" + phrase + "\"";
                     const char *charCommand = command.c_str();
                     system(charCommand);
@@ -571,24 +571,24 @@ void greetings(){
     tm *time = localtime(&now);
 
     if (time-> tm_hour < 12){
-        cout<< "Good Morning Master Aditya"<<endl;
-        string phrase = "Good Morning Master Aditya";
+        cout<< "Good Morning"<<endl;
+        string phrase = "Good Morning ";
         string command = "espeak \"" + phrase + "\"";
         const char *charCommand = command.c_str();
         system(charCommand);
     }
 
     else if (time-> tm_hour >= 12 && time->tm_hour <= 16){
-        cout<< "Good Afternoon Master Aditya"<<endl;
-        string phrase = "Good Afternoon Master Aditya";
+        cout<< "Good Afternoon"<<endl;
+        string phrase = "Good Afternoon";
         string command = "espeak \"" + phrase + "\"";
         const char *charCommand = command.c_str();
         system(charCommand);
     }
 
     else if (time-> tm_hour > 16 && time->tm_hour < 24){
-        cout<< "Good Evening Master Aditya"<<endl;
-        string phrase = "Good Evening Master Aditya";
+        cout<< "Good Evening"<<endl;
+        string phrase = "Good Evening";
         string command = "espeak \"" + phrase + "\"";
         const char *charCommand = command.c_str();
         system(charCommand);
@@ -613,9 +613,9 @@ int main()
     do
     {
         cout<<"******************************************************"<<endl;
-        cout<<"| ENTER THE PASSWORD TO CONFIRM YOU ARE MASTER ADITYA|"<<endl;
+        cout<<"| ENTER THE PASSWORD|"<<endl;
         cout<<"******************************************************"<<endl<<endl;
-        string phrase = "ENTER THE PASSWORD TO CONFIRM YOU ARE MASTER ADITYA";
+        string phrase = "ENTER THE PASSWORD";
         string command = "espeak \"" + phrase + "\"";
         const char *charCommand = command.c_str();
         system(charCommand);
@@ -631,9 +631,9 @@ int main()
             greetings();
             do{
                 cout<<"\n<**********************************************************************************************>\n\n";
-                cout<<endl<<"How can i help you Master Aditya...."<<endl<<endl;
+                cout<<endl<<"How can i help you ...."<<endl<<endl;
 
-                string phrase = "How can i help you Master Aditya";
+                string phrase = "How can i help you ";
                 string command = "espeak \"" + phrase + "\"";
                 const char *charCommand = command.c_str();
                 system(charCommand);
@@ -645,8 +645,8 @@ int main()
 
                 if(command=="hello" || command=="hi")
                 {
-                    cout<<"Hello Master Aditya....."<<endl;
-                    string phrase = "Hello Master Aditya";
+                    cout<<"Hello ....."<<endl;
+                    string phrase = "Hello ";
                     string command = "espeak \"" + phrase + "\"";
                     const char *charCommand = command.c_str();
                     system(charCommand);
@@ -661,8 +661,8 @@ int main()
 
                 else if(command=="who are you" || command=="who is speaking")
                 {
-                    cout<<"I'm a personal assistant created by Master Aditya !!!"<<endl;
-                    string phrase = "I'm a personal assistant created by Master Aditya !!!";
+                    cout<<"I'm a personal assistant  !!!"<<endl;
+                    string phrase = "I'm a personal assistant !!!";
                     string command = "espeak \"" + phrase + "\"";
                     const char *charCommand = command.c_str();
                     system(charCommand);
